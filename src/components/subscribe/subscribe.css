@@ -1,0 +1,46 @@
+.subscribe {
+    padding: 50px 135px;
+}
+
+.sub-text {
+    padding-bottom: 100px;
+    font-size: 52px;
+    line-height: 28.5px;
+    color: #0B1B35;
+    text-align: center;
+}
+
+.sub-container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.sub-info p {
+    padding-bottom: 25px;
+    font-size: 18px;
+    line-height: 28.5px;
+    color: #000000;
+}
+
+.sub-info input {
+    padding: 30px;
+    margin-bottom: 50px;
+    width: 700px;
+    height: 77px;
+    border-radius: 49px;
+    border: 1px solid #eee;
+    outline: none;
+    font-size: 24px;
+    line-height: 28.5px;
+    box-shadow: -3px 34px 46px -31px rgba(0, 0, 0, 0.6);
+}
+
+.sub-info input::placeholder {
+    color: #000000;
+    font-size: 24px;
+}
+
+.sub-info .btn {
+    width: 700px;
+}
