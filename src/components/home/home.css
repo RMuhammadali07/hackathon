@@ -1,0 +1,56 @@
+.home {
+    padding: 50px 135px;
+    display: flex;
+    align-items: center;
+}
+
+.home-text h1 {
+    font-size: 70px;
+    color: #0B1B35;
+    line-height: 91px;
+    padding-bottom: 26px;
+}
+
+.home-text p {
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    padding-bottom: 66px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.home-btn {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border: none;
+    background: #ffff;
+    cursor: pointer;
+}
+
+.home-btn:hover span {
+    color: #FF9933;
+}
+
+.home-btn span{
+    color: #000000;
+    line-height: 28.5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.home-image img{
+    width: 646px;   
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        display: block;
+    }
+}
