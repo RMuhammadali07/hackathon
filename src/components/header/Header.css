@@ -1,0 +1,66 @@
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    
+}
+nav ul li a {
+    transition: all 0.3s;
+
+}
+nav ul li  a:hover{
+    color: #FF6600;
+
+}
+.btns {
+    display: flex;
+    gap: 20px;
+}
+.btns button{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.btns button:nth-child(1){
+    background: #fff;
+}
+
+.btns button:nth-child(2){
+    background: #FF6600;
+    color: white;
+}
+.btns button:hover{
+    background: #FF6600;
+    color: white;
+}
+
+.btns button:nth-child(2):hover{
+    background: #fff;
+    color: #000;
+}
+.btns button:nth-child(2):active{
+    background: #FF6600;
+    color: #fff;
+}
+.btns button:nth-child(1):active{
+    background: #fff;
+    color: #000;
+}
