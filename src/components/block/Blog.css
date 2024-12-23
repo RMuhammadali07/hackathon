@@ -1,0 +1,45 @@
+.block {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 130px 170px;
+}
+
+.block-text {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.block-text h2 {
+    width: 200px;
+}
+
+.block-text p {
+    color: #948585;
+}
+
+
+.btn button {
+width: 133px;
+height: 48px;
+border-radius: 100px;
+border: none;
+outline: none;
+border: 3px solid #EBEAED;
+background: #fff;
+transition: all 0.3s ease;
+cursor: pointer;
+}
+
+.btn button:hover {
+    background: #FF6600;
+    color: white;
+}
+
+.btn button:active {
+    border: 3px solid #EBEAED;
+    background: #fff;
+    color: #000;
+}
+

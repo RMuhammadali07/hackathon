@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    padding: 50px 180px;
+    gap: 50px;
+}
+
+.logo-img img{
+    width: 100px;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.nav {
+    margin-left: 250px;
+}
+
+hr {
+    margin-top: 20px;
+    color: #EBEAED;
+}
+.footer-bottom {
+    margin-top: 20px;
+}
+.footer-bottom p{
+    color: #818191;
+}
